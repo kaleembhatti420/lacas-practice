@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- External Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Internal Links -->
+    <link rel="stylesheet" href="./css/index.css" />
+    <script src="./js/index.js" defer></script>
+    <title>Practice for Lacas 3</title>
+  </head>
+  <body>
+    <!-- Hidden Nav Bar -->
+    <div id="hiddenNavBar"></div>
+    <!-- Hero Section (Landing Page) -->
+    <div id="hero">
+      <div id="hero-navBar">
+        <div id="hero-navBar-logo">LOGO</div>
+        <div id="hero-navBar-items">
+          <a href="#">Pricing</a>
+          <a href="#">Reviews</a>
+          <a href="#">Products</a>
+          <a href="#">Blog</a>
+          <hr />
+          <button id="signup">Sign up</button>
+          <button id="login">Login</button>
+        </div>
+        <div class="hidden" id="navBtn">
+          <div id="bar1"></div>
+          <div id="bar2"></div>
+          <div id="bar3"></div>
+        </div>
+      </div>
+      <div id="hero-sideContent">
+        <h1>Main <span class="main-text-green">Catchy</span> Heading</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed alias optio non iusto
+          perspiciatis sint. Magnam aliquid eaque veniam harum asperiores natus, est velit nostrum.
+        </p>
+        <div id="hero-callToAction">
+          <input type="email" placeholder="someone@example.com" maxlength="30" />
+          <button>Sign Up</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Numbers -->
+    <div id="numbers">
+      <div id="number-display-1">
+        <h6>Unique products</h6>
+
+        <p>+<span id="number-display-value-1" data-max="100">0</span></p>
+      </div>
+      <div id="number-display-2">
+        <h6>Customers</h6>
+        <p>+<span id="number-display-value-2" data-max="150">0</span>K</p>
+      </div>
+      <div id="number-display-3">
+        <h6>Sales</h6>
+        <p>+<span id="number-display-value-3" data-max="200">0</span>K</p>
+      </div>
+      <div id="number-display-4">
+        <h6>Random</h6>
+        <p>+<span id="number-display-value-4" data-max="100">0</span>K</p>
+      </div>
+    </div>
+
+    <!-- Info Sectors -->
+    <div class="info-sectors" id="info-sector-1">
+      <div id="info-1-content">
+        <h2>Sub Heading</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed voluptate cum eius
+          aspernatur eum at corrupti delectus magni eligendi distinctio, illo ratione aliquam
+          repellat omnis accusamus vitae dolore libero ex quae qui sit! Voluptas nemo atque et
+          totam.
+        </p>
+        <button>View more</button>
+      </div>
+      <div id="info-1-img">
+        <img loading="lazy" src="./img/info-1.jpg" />
+      </div>
+    </div>
+    <div class="info-sectors" id="info-sector-2">
+      <div id="info-2-img">
+        <img loading="lazy" src="./img/info-2.jpg" />
+      </div>
+      <div id="info-2-content">
+        <h2>Sub Heading</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed voluptate cum eius
+          aspernatur eum at corrupti delectus magni eligendi distinctio, illo ratione aliquam
+          repellat omnis accusamus vitae dolore libero ex quae qui sit! Voluptas nemo atque et
+          totam. quisquam?
+        </p>
+        <button>Try now for Free</button>
+      </div>
+    </div>
+
+    <!-- &#x2713; &times; -->
+    <!-- Pricing -->
+    <!-- <div id="pricing">
+      <div id="pricing-description">
+        <h2>Pricing</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo deleniti vero modi
+          dignissimos placeat nihil, culpa at assumenda veniam consectetur aut quasi!
+        </p>
+      </div>
+      <div id="pricingCardContainer">
+        <div class="pricingCards" id="pricingCard-1">
+          <h3>Free</h3>
+          <div id="cardInDepth">
+            <p><span>&times;</span>Lorem ipsum dolor sit amet.</p>
+            <p><span>&times;</span>Lorem ipsum dolor sit amet.</p>
+            <p><span>&times;</span>Lorem ipsum dolor sit amet.</p>
+            <p><span>&#x2713;</span>Lorem ipsum dolor sit amet.</p>
+            <p><span>&#x2713;</span>Lorem ipsum dolor sit amet.</p>
+            <p><span>&#x2713;</span>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <button>Buy Now</button>
+        </div>
+        <div class="pricingCards" id="pricingCard-2">
+          <h3>Premium</h3>
+          <div id="cardInDepth">
+            <p><span>&times;</span>Lorem ipsum dolor sit amet.</p>
+            <p><span>&times;</span>Lorem ipsum dolor sit amet.</p>
+            <p><span>&times;</span>Lorem ipsum dolor sit amet.</p>
+            <p><span>&times;</span>Lorem ipsum dolor sit amet.</p>
+            <p><span>&times;</span>Lorem ipsum dolor sit amet.</p>
+            <p><span>&#x2713;</span>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <button>Buy Now</button>
+        </div>
+        <div class="pricingCards" id="pricingCard-3">
+          <h3>Professional</h3>
+          <div id="cardInDepth">
+            <p><span>&times;</span>Lorem ipsum dolor sit amet.</p>
+            <p><span>&times;</span>Lorem ipsum dolor sit amet.</p>
+            <p><span>&times;</span>Lorem ipsum dolor sit amet.</p>
+            <p><span>&times;</span>Lorem ipsum dolor sit amet.</p>
+            <p><span>&times;</span>Lorem ipsum dolor sit amet.</p>
+            <p><span>&times;</span>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <button>Buy Now</button>
+        </div>
+      </div>
+      <button>View All</button>
+    </div> -->
+
+    <!-- <p>lorem1000</p> -->
+  </body>
+</html>

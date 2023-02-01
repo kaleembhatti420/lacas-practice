@@ -1,0 +1,13 @@
+@import "./common.css";
+
+/* Hero section */
+@import "./hero.css";
+
+/* Numbers Section */
+@import "./numbers.css";
+
+/* Info Sectors */
+@import "./infoSectors.css";
+
+/* Pricing / Plans Section */
+@import "./pricing.css";
