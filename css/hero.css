@@ -4,7 +4,7 @@
     height: 100vh;
 
     /* background-color: rgb(255, 174, 174); */
-    background: linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url("../img/hero.jpg");
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url("img/hero.jpg");
 
     background-repeat: no-repeat;
     background-size: cover;
